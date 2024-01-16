@@ -1,0 +1,23 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import './loginForm';
+@import './homeList';
+@import './headerNav';
+@import './footer';
+
+@font-face {
+    font-family: 'bootstrap-icons';
+    src: url(../fonts/bootstrap-icons.woff);
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.fullHeight{height: 100vh;}
+
+p,h6{font-size: 16px;}
+.loginCanvas{width: 100%; display: flex;}
+#loginPage{height: 100vh; display: flex; align-items: center; padding:0;}
+
+.socialmedia{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}

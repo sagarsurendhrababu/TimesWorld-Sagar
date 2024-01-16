@@ -1,0 +1,58 @@
+#loginform{
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+    gap: 20px;
+    h3{
+        font-size: 32px;
+    }
+    &>form{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        input{
+            height: 48px;
+            width: 100%;
+            display: block;
+            border: 2px solid #3E3E3E;
+            padding: 10px;
+        }
+        .chckPoint{
+            display: flex;
+            margin-top: 10px;
+            &>input{
+                height:32px;
+                width: 32px;
+                border: 2px solid #3E3E3E;
+                margin-right: 15px;
+            }
+            &>p{padding-top: 2px;}
+        }
+        button{
+            width: 100%;
+            border:none;
+            color: #fff;
+            height: 48px;
+            background-color: #3C3C3C;
+            &:hover{
+                background-color: #2e2e2e;
+            }
+        }
+    }
+    .divider {
+        font-size: 13px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        margin: 15px 0;
+      }
+      
+    .divider::before, .divider::after {
+        flex: 1;
+        content: '';
+        padding: 1px;
+        background-color:#CFCFCF;
+        margin: 5px;
+    }    
+
+}

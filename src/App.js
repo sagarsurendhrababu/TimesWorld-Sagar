@@ -1,7 +1,11 @@
+import Login from './Components/Login';
+import Home from './Components/Home';
+
 function App() {
   return (
     <div className="App">
-      Hello World
+        {/* <Login/> */}
+        <Home/>      
     </div>
   );
 }
