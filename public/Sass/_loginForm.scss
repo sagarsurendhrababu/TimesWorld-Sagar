@@ -3,6 +3,7 @@
     width: 280px;
     flex-direction: column;
     gap: 20px;
+   
     h3{
         font-size: 32px;
     }
@@ -54,5 +55,11 @@
         background-color:#CFCFCF;
         margin: 5px;
     }    
-
 }
+
+#loginImage{
+    display: block;
+}
+@media (max-width: 576px) { 
+    #loginImage{display: none;}
+ }

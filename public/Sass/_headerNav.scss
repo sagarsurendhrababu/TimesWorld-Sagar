@@ -1,9 +1,18 @@
 #Header{
     margin: 20px 0 50px 0;
+    height: 40px;
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+    }
     .HeaderNav{
         display: flex;
         list-style: none;
+        justify-content: flex-end;        
         align-items: center;
+        margin: 0;
         li{
             padding: 0 15px;
             a{
@@ -12,7 +21,8 @@
                 font-weight: 600;
                 line-height: 22px;
                 letter-spacing: 0em;  
-                text-decoration: none;             
+                text-decoration: none; 
+                cursor: pointer;            
             }
             .active{
                 color: #3D3D3D!important;
@@ -28,6 +38,8 @@
         line-height: 34px;
         letter-spacing: 0em;
         text-align: left;
+        margin: 0;
+        height: 100%;        
     }
     .nav{
         img{

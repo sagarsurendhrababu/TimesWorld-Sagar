@@ -8,9 +8,9 @@ export default function Home() {
       <>
         <Header/>
         <div className='container'>        
-            <ul className='row' id='HomeList'>
+            <div className='row' id='HomeList'>
               <ListItem/>                     
-            </ul>
+            </div>
         </div>
         <Footer/>      
       </>

@@ -9,13 +9,13 @@
     src: url(../fonts/bootstrap-icons.woff);
 }
 
-*{margin: 0; padding: 0; box-sizing: border-box;}
+*{margin: 0; padding: 0; box-sizing: border-box;} 
 .fullHeight{height: 100vh;}
 
 p,h6{font-size: 16px;}
 .loginCanvas{width: 100%; display: flex;}
 #loginPage{height: 100vh; display: flex; align-items: center; padding:0;}
-
+.loading{background-color: rgb(166, 166, 166); text-align: center; color: #fff;}
 .socialmedia{
     display: flex;
     gap: 15px;
